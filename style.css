@@ -1,0 +1,65 @@
+:root{
+	--primary-color: #F07DEA;
+	--primary-color-alt:#A460ED;
+	--secondary-color:#9FC9F3;
+}
+
+
+main{
+	text-align: center;
+}
+
+.heading{
+	margin-top:5rem ;
+	color: var(--primary-color-alt);
+	font-size: xx-large;
+}
+
+.sub_heading{
+	color: var(--primary-color-alt);
+	font-size: x-large;
+}
+
+#bday-input{
+	padding: 1rem;
+	border: 2px solid var(--primary-color-alt);
+	border-radius: .5rem;
+	width: 8rem;
+}
+
+#show-btn{
+	display: block;
+	margin:1rem  auto;
+	border: 2px solid var(--primary-color-alt);
+	background-color: #9FC9F3;
+	color: var(--primary-color-alt);
+	padding: .8rem;
+	width: 8rem;
+	border-radius: .5rem;
+	font-weight: bold;
+}
+
+#result{
+	margin-top:3rem ;
+	color: var(--primary-color-alt);
+	font-size: x-large;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-heading{
+	color: var(--primary-color-alt);
+	font-size: x-large;
+}
+
+.footer-icons i{
+	margin: .5rem;
+	font-size: xx-large;
+	color: var(--primary-color-alt);
+	margin-bottom: 1rem;
+}
