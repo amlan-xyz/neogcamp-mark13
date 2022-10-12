@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,600&family=Roboto:wght@400;700&display=swap');
 :root{
 	--primary-color: #F07DEA;
 	--primary-color-alt:#A460ED;
 	--secondary-color:#9FC9F3;
 }
 
+body{
+	font-family: 'Roboto', sans-serif;
+}
 
 main{
 	text-align: center;
